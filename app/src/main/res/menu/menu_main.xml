@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:compat="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/remove_actions"
+        android:title="@string/delete_menu"
+        android:orderInCategory="100"
+        compat:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_delete">
+        <menu>
+            <item
+                android:id="@+id/action_remove_all"
+                android:title="Remove all"
+                android:orderInCategory="100"
+                compat:showAsAction="always"/>
+
+            <item
+                android:id="@+id/action_remove_purchased"
+                android:title="Remove purchased"
+                android:orderInCategory="101"
+                compat:showAsAction="always"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/sort_actions"
+        android:title="Sort"
+        android:orderInCategory="99"
+        compat:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_sort_by_size">
+        <menu>
+            <item
+                android:id="@+id/action_sort_type"
+                android:title="@string/typeSort"
+                android:orderInCategory="100"
+                compat:showAsAction="always"/>
+
+            <item
+                android:id="@+id/action_sort_name"
+                android:title="@string/nameSort"
+                android:orderInCategory="101"
+                compat:showAsAction="always"/>
+
+            <item
+                android:id="@+id/action_sort_cost"
+                android:title="@string/sortCost"
+                android:orderInCategory="102"
+                compat:showAsAction="always"/>
+        </menu>
+
+    </item>
+</menu>

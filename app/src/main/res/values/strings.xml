@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_placeholder">No items</string>
+    <string name="title_activity_create_item">New Item</string>
+    <string name="action_new_item">New Item</string>
+    <string name="add_item_button">Add to list</string>
+    <string name="est_price_hint">Estimated price</string>
+    <string name="item_name_hint">Item name</string>
+    <string name="item_type_label">Item type:</string>
+    <string name="item_added_alert">Item added to list!</string>
+    <string name="canceled_alert">Cancelled</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="delete_menu">Delete</string>
+    <string name="total_default">$0.00</string>
+    <string name="typeSort">Sort by type</string>
+    <string name="nameSort">Sort by name</string>
+    <string name="sortCost">Sort by cost</string>
+    <string name="currency_symbol">$</string>
+</resources>
